@@ -1,17 +1,19 @@
-#create calculator class
 class Calculator
   def add(x,y)
-      x + y
+   x + y
   end
 
   def subtract(x,y)
-     y - x
+    Print.new.pretty_print(y - x)
   end
 end
 
-class Display
+
+
+
+class Print
   def pretty_print(n)
-  n =1
- "The answer is #{n}"
+    "The answer is #{n}"
   end
+
 end
